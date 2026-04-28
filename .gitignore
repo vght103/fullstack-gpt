@@ -1,8 +1,10 @@
 env/
 .env
-files/
 .cache/
 .streamlit/
 .DS_Store
 falcon.bin
+
+.claude/
+.omc/
 __pycache__
