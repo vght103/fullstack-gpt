@@ -14,10 +14,10 @@ Welcome to my FullstackGPT Portfolio!
 Here are the apps I made:
             
 - [x] [📃 DocumentGPT](/DocumentGPT)
-- [x] [🔒 PrivateGPT](/PrivateGPT)
-- [x] [❓ QuizGPT](/QuizGPT)
-- [x] [🖥️ SiteGPT](/SiteGPT)
-- [x] [💼 MeetingGPT](/MeetingGPT)
-- [x] [📈 InvestorGPT](/InvestorGPT)
+- [] [🔒 PrivateGPT](/PrivateGPT)
+- [] [❓ QuizGPT](/QuizGPT)
+- [] [🖥️ SiteGPT](/SiteGPT)
+- [] [💼 MeetingGPT](/MeetingGPT)
+- [] [📈 InvestorGPT](/InvestorGPT)
 """
 )
