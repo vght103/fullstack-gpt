@@ -1,7 +1,15 @@
 {
-  "python.autoComplete.extraPaths": ["./env/bin/python3"],
-  "python.analysis.extraPaths": ["./env/bin/python3"],
+  "python.defaultInterpreterPath": "${workspaceFolder}/env/bin/python",
+  "python.analysis.extraPaths": ["${workspaceFolder}/env/lib/python3.11/site-packages"],
   "python.analysis.autoImportCompletions": true,
+  "cursorpyright.analysis.extraPaths": ["${workspaceFolder}/env/lib/python3.11/site-packages"],
   "cursorpyright.analysis.autoImportCompletions": true,
-  "cursorpyright.analysis.extraPaths": ["./env/bin/python3"]
+  "basedpyright.analysis.extraPaths": ["${workspaceFolder}/env/lib/python3.11/site-packages"],
+  "basedpyright.analysis.autoImportCompletions": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false
+  },
+  "black-formatter.path": ["${workspaceFolder}/env/bin/black"]
 }
