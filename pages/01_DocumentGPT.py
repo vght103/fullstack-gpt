@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 
-class ChatFallbackHandler(BaseCallbackHandler):
+class ChatCallbackHandler(BaseCallbackHandler):
     message = ""
 
     def on_llm_start(self, *args, **kwargs):
@@ -29,7 +29,7 @@ class ChatFallbackHandler(BaseCallbackHandler):
         self.message_box.markdown(self.message)
 
 
-llm = ChatOpenAI(temperature=0.1, streaming=True, callbacks=[ChatFallbackHandler()])
+llm = ChatOpenAI(temperature=0.1, streaming=True, callbacks=[ChatCallbackHandler()])
 
 
 # st.cache_data 이 함수는 한번만 실행하며, 다른 파일을 넣지 않는 이상 재실행하지 않고 캐싱된걸 다시 준다.
