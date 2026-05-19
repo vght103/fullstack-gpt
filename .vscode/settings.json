@@ -10,6 +10,5 @@
     "editor.defaultFormatter": "ms-python.black-formatter",
     "editor.formatOnSave": true,
     "editor.formatOnType": false
-  },
-  "black-formatter.path": ["${workspaceFolder}/env/bin/black"]
+  }
 }
